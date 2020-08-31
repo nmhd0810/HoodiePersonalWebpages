@@ -79,7 +79,7 @@ function generate_one_number() {
     if (nospace(board)) {
         return false;
     }
-    //随机一个位置
+    //Random position
     var randx = parseInt(Math.floor(Math.random() * 4));
     var randy = parseInt(Math.floor(Math.random() * 4));
     var time = 0;
